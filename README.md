@@ -36,8 +36,18 @@ I acted as the **business systems analyst, product owner and AI prompt engineer*
 ## Repository contents
 
 This repository contains high‑level documentation and example artefacts:
+- 
+## Documentation
 
-- `docs/` – Markdown documents describing the system overview, module map, workflows, roles and permissions, reporting, version history and AI‑assisted build process.  
+Detailed markdown files are provided in the `docs` folder to explain different aspects of the platform:
+
+- [project-overview.md](docs/project-overview.md) – High-level summary of the system’s purpose, target users and benefits.
+- [module-map.md](docs/module-map.md) – Overview of the key system modules (Projects, Procurement, Warehousing, Finance, Reporting) and how they relate to each other.
+- [workflows.md](docs/workflows.md) – Detailed business processes covering the procurement cycle, BoQ lifecycle, warehouse management and finance operations.
+- [roles-permissions.md](docs/roles-permissions.md) – Descriptions of the roles and a permissions matrix showing which roles can view/edit/approve data across modules.
+- [reporting-printing.md](docs/reporting-printing.md) – Overview of reporting features, standard reports, print templates and export options.
+- [version-history.md](docs/version-history.md) – Timeline of key milestones, features and iterations during the build of the platform.
+- [ai-assist`d-build-process.md](docs/ai-assisted-build-process.md) – How generative AI tools were used to prototype and iterate on the system, and how human review ensured alignment with business needs.
 - `screenshots/` – Placeholder folder for UI screenshots (e.g. dashboards, procurement flows). Real screens are excluded for confidentiality; you can add blurred or mock images here.  
 - `assets/` – Static assets such as logos or icons.  
 
