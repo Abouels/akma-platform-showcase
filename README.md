@@ -1,59 +1,147 @@
-# AKMA Platform – AI‑Assisted Business System for Construction & Finishing Operations
+# AKMA Platform
 
-The **AKMA Platform** is a case study in designing and building a business management system for the construction and finishing sector.  
-It illustrates how a real business need was translated into a modular workflow-driven system, using prompt‑driven AI prototyping and iterative human review.  
-The full production codebase is proprietary and owned by the sponsoring company, so it is **not included** here.  
-This repository is instead a showcase of the system’s design, documentation and screenshots for portfolio and educational purposes.
+**Business systems design case study for construction and finishing operations**
 
-## Why this system?
+![AKMA Dashboard](screenshots/company-dashboard.png)
 
-Small and medium‑sized contractors face common operational bottlenecks: scattered spreadsheets, manual procurement processes, poor visibility into costs and inventory and cumbersome reporting.  
-AKMA addresses these pain‑points by offering a centralized system that covers projects, bills of quantities, procurement, warehousing, finance, permissions and reporting.  
-The platform is multi‑lingual (Arabic and English) and enforces granular access control across roles such as administrators, project managers, procurement staff, accountants and consultants.
+## Overview
 
-## Key Modules & Features
+AKMA Platform is a project-centric internal business system designed for construction and finishing operations.
 
-- **Projects & Accounts** – Create projects with detailed metadata, define accounts, and configure cost centers. Projects have statuses, phases and hierarchies.  
-- **Bill of Quantities (BoQ)** – Generate structured BoQ tables, with categories, items, quantities, units and unit prices. Support for multiple projects and revisions.  
-- **Procurement & Vendors** – Raise purchase requests, compare supplier offers, approve purchase orders, receive goods and manage supplier invoices.  
-- **Warehousing & Inventory** – Track materials on site, record stock in/out, monitor remaining quantities and flag low stock levels.  
-- **Finance & Payments** – Record income and expenses by project, link invoices, track advance payments, issue receipts and compile cash‑flow reports.  
-- **Reporting & Printing** – Generate printable PDF reports (in Arabic/English), including project summaries, BoQ sheets, procurement comparisons, stock sheets and financial statements.  
-- **Permissions & Multi‑Language** – Define user roles and group‑based permissions on each screen and action. The interface is fully bilingual.  
-- **AI‑Assisted Prototyping** – Use generative AI to bootstrap initial prototypes, accelerate screen design and iterate rapidly based on user feedback.
+It connects projects, areas, procurement, expenses, revenues, reporting, and internal support workflows inside one structured platform. The goal is not just data entry, but clear operational visibility, controlled actions, and better decision-making across daily work.
 
-## My Role
+This repository is a **product showcase**, not an open-source release of the production code.
 
-I acted as the **business systems analyst, product owner and AI prompt engineer** for this project. My responsibilities included:
+## What this project demonstrates about my work
 
-- **Requirements elicitation** – Understanding the construction/finishing operations and translating them into system modules and workflows.  
-- **Workflow definition** – Mapping real‑world processes (e.g. purchase request → supplier comparison → purchase order → receipt → invoice → payment) into system logic.  
-- **Module & permission design** – Specifying the structure of each module, the fields needed and the roles that can view/edit data.  
-- **UX and report direction** – Outlining dashboards, navigation patterns, Arabic/English labels, print layouts and data visualisations.  
-- **AI‑assisted prototyping** – Leveraging generative models to scaffold screens and logic, then refining and validating outputs through iterative testing.  
-- **Iteration & quality assurance** – Reviewing early builds, highlighting bugs and edge‑cases, and ensuring the final system met business expectations.
+This project reflects the kind of work I do from the business and product side:
 
-## Repository contents
+- translating real operational needs into structured digital workflows
+- defining product modules and the relationships between them
+- designing system logic, permissions, user actions, and reporting visibility
+- shaping interfaces around operational clarity, not just visual layout
+- using AI-assisted prototyping to accelerate iteration while keeping human-led product direction
 
-This repository contains high‑level documentation and example artefacts:
-- 
+## Core system capabilities
+
+- client and project management
+- project-centered workspaces with financial visibility
+- area and room-level tracking
+- initial handover by finishing category
+- BOQ and estimation structure
+- procurement workflow and supplier comparison
+- price timeline and residual material logic
+- invoices, expenses, and client revenue tracking
+- report and export workflows
+- user management and role-based access
+- internal IT helpdesk and in-app notifications
+- bilingual Arabic / English usage with RTL / LTR support
+
+## Why the system matters
+
+Construction and finishing businesses often suffer from scattered records, manual follow-up, weak reporting, and disconnected operational steps.
+
+AKMA was designed to solve that by turning day-to-day operational workflows into one connected system where project structure, room progress, procurement, finance, permissions, and support can all work together.
+
+## Selected product strengths
+
+### 1. Project-centered structure
+The platform organizes work around real projects, not disconnected records. This improves traceability across procurement, expenses, revenues, rooms, and reporting.
+
+### 2. Room-level operational tracking
+Progress is not treated as a generic percentage. The system supports room and area-level tracking so execution status becomes easier to understand and follow.
+
+![Areas and Rooms](screenshots/areas-rooms.png)
+
+### 3. Real workflow logic
+The platform reflects actual business sequences such as procurement request, supplier comparison, purchase flow, receipt, reporting, and support handling.
+
+![Procurement](screenshots/procurement.png)
+
+### 4. Decision-oriented dashboards
+The dashboard and project overview screens are built to improve visibility, not just display numbers.
+
+![Project Overview](screenshots/project-overview.png)
+
+### 5. Reporting and export thinking
+Reports and export previews were treated as part of the product logic, because real business use depends on clear printable outputs and branded reporting.
+
+![Reports Export](screenshots/reports-export.png)
+
+### 6. Internal support workflow
+The system includes an internal support direction with ticket replies and notification behavior inside the platform.
+
+![Internal IT Support](screenshots/internal-it-support.png)
+
+![Notifications](screenshots/notifications.png)
+
+### 7. Business rules and governance
+The product direction includes user visibility, controlled actions, permission readiness, and rules that protect data integrity across the workflow.
+
+![Users and Roles](screenshots/users-and-roles.png)
+
+## Additional UI Screens
+
+### Login
+![Login](screenshots/login-page.png)
+
+### Company Dashboard
+![Company Dashboard](screenshots/company-dashboard.png)
+
+### Initial Handover
+![Initial Handover](screenshots/initial-handover.png)
+
+### Price Timeline
+![Price Timeline](screenshots/price-timeline.png)
+
+## My role
+
+I worked on this product from the **business systems and product design side**.
+
+My role included:
+- identifying real operational pain points
+- defining modules and business flows
+- structuring user actions and data relationships
+- shaping progress logic, reporting logic, and permissions direction
+- guiding the product through AI-assisted iteration and refinement
+
+I was not positioning myself here as a traditional software engineer. The value of my role was in turning operational complexity into a system that could be structured, validated, and built.
+
+## Repository structure
+
+```text
+.
+├─ README.md
+├─ CHANGELOG.md
+├─ VERSIONING_RULES.md
+├─ RELEASE_TEMPLATE.md
+├─ GITHUB_UPLOAD_STEPS.md
+├─ screenshots/
+└─ docs/
+```
+
 ## Documentation
 
-Detailed markdown files are provided in the `docs` folder to explain different aspects of the platform:
+Additional supporting documents are available inside the `docs/` folder:
+- project overview
+- module map
+- workflows
+- roles and permissions
+- reporting and printing
+- version history
+- AI-assisted build process
 
-- [project-overview.md](docs/project-overview.md) – High-level summary of the system’s purpose, target users and benefits.
-- [module-map.md](docs/module-map.md) – Overview of the key system modules (Projects, Procurement, Warehousing, Finance, Reporting) and how they relate to each other.
-- [workflows.md](docs/workflows.md) – Detailed business processes covering the procurement cycle, BoQ lifecycle, warehouse management and finance operations.
-- [roles-permissions.md](docs/roles-permissions.md) – Descriptions of the roles and a permissions matrix showing which roles can view/edit/approve data across modules.
-- [reporting-printing.md](docs/reporting-printing.md) – Overview of reporting features, standard reports, print templates and export options.
-- [version-history.md](docs/version-history.md) – Timeline of key milestones, features and iterations during the build of the platform.
-- [ai-assist`d-build-process.md](docs/ai-assisted-build-process.md) – How generative AI tools were used to prototype and iterate on the system, and how human review ensured alignment with business needs.
-- `screenshots/` – Placeholder folder for UI screenshots (e.g. dashboards, procurement flows). Real screens are excluded for confidentiality; you can add blurred or mock images here.  
-- `assets/` – Static assets such as logos or icons.  
+## Notes
 
-## Notes on confidentiality
+- The production code is not included in this repository.
+- The platform was built for a real business context.
+- This repository is intended to present the product direction, workflow logic, and selected system screens.
+- Sensitive company data should always be removed or blurred before publishing screenshots.
 
-The AKMA Platform is a commercial, proprietary system built for a real business context.  
-**No production code or sensitive data is included** in this repository.  
-The documentation and structures provided here are for demonstration and portfolio purposes only.  
-If you wish to see a live demo or discuss licensing, please contact the author.
+## Versioning
+
+The project follows this version format:
+
+`akma V<major>.<minor>.<patch>`
+
+The locked reference version is `akma V2.02.01`.
